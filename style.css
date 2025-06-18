@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --color: green;
+    --bgcolor: rgba(38, 220, 78, 0.925);
+    --txt: rgba(255, 255, 255, 0.542);
+}
+
+/* :root {
+
+    --color: rgb(118, 14, 118);
+    --bgcolor: violet;
+    --txt: rgba(255, 255, 255, 0.611);
+} */
+
+body {
+    background-color: var(--bgcolor);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    background-color: var(--color);
+
+
+
+
+    /* margin: 0px 2px 3px 4px;
+padding: 0px 24px 34px 23px; */
+
+}
+
+a {
+    text-decoration: none;
+
+    color: var(--txt);
+}
+
+ul li {
+    /* margin: 23px; */
+    padding: 23px 0px 23px 23px;
+
+
+}
